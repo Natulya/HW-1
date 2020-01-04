@@ -22,6 +22,8 @@ let appData = {
 console.log(appData.budget);
 
 let questionWhat1 = prompt("Введите обязательную статью расходов в этом месяце");
-let questionWhat2 = prompt("Введите обязательную статью расходов в этом месяце");
 let questionHowMuch1 = prompt("Во сколько обойдется?");
+let questionWhat2 = prompt("Введите обязательную статью расходов в этом месяце");
 let questionHowMuch2 = prompt("Во сколько обойдется?");
+
+let perDay = alert('Ваш бюджет на 1 день ' +  money / 30);
